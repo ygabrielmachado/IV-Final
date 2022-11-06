@@ -51,7 +51,7 @@ async function getData() {
 	const horaData = [];
 	const bolsonaroData = [];
 	const lulaData = [];
-	const url = `http://localhost:5500/data/2T.csv`;
+	const url = `https://ygabrielmachado.github.io/IV-Final/projeto/data/2T.csv`;
 	const response = await fetch(url);
 	const tableData = await response.text();
 

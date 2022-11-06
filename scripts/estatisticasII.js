@@ -52,7 +52,7 @@ async function getData() {
 	const apuradosData = [];
 	const bolsonaroData = [];
 	const bolsoData = [];
-	const url = `http://localhost:5500/data/apurados.csv`;
+	const url = `https://ygabrielmachado.github.io/IV-Final/projeto/data/apurados.csv`;
 	const response = await fetch(url);
 	const tableData = await response.text();
 
